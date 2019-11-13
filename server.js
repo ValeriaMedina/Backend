@@ -26,6 +26,6 @@ app.get('/login', (req, res) => {
     });
 });
 
-app.listen(port, ()=>{
-    console.log(`Server online in Port: ${port}`)
-})
+app.listen(port, () => {
+	console.log(`Server online in Port: ${port}`);
+});
